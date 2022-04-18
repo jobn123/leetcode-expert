@@ -1,0 +1,13 @@
+{
+  "name": "leetcode-expert",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "vitest": "^0.9.3"
+  }
+}
