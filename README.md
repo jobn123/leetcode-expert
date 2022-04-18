@@ -1,7 +1,5 @@
-# leetcode-expert
 > solve leetcode problems
 
 ## dynamic-programming
 
-[70-easy-climbStairs](./questions/70-easy-climbStairs/README.md)
-
+[70-easy-climbStairs](questions/70-easy-climbStairs/README.md)
