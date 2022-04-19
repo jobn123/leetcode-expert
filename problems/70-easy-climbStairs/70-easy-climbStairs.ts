@@ -19,3 +19,19 @@ export const climbStairs2 = (n: number, memo = []): number => {
   memo[n] = res;
   return res;
 }
+
+export const climbStairs3 = (n: number): number => {
+  if (n < 3) return n
+
+  let pre = 2;
+  let prePre = 1;
+  let total = pre + prePre;
+
+  for (let i = 3; i < n; i++) {
+    prePre = pre
+    pre = total
+    total = pre + prePre
+  }
+
+  return total
+}
